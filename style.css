@@ -1,0 +1,30 @@
+/*
+Theme Name:   10k Teeth
+Theme URI:		https://www.10kteeth.com/
+Description:	Theme by Digital Rockpool
+Author:			  Digital Rockpool
+Author URI:		https://www.digitalrockpool.com/
+Template:		  hello-elementor
+Version:		  1.0.0
+Text Domain:	tenkteeth
+ */
+
+/* Remove elementor image post sharing on lightbox */
+.eicon-share-arrow {
+  display: none;
+}
+
+/* Offset anchor link */
+.elementor-menu-anchor {
+  display: block;
+  position: relative;
+  top: -16px;
+  visibility: hidden;
+}
+
+/* Middle align testimonial content */
+.elementor-widget-testimonial-carousel .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
